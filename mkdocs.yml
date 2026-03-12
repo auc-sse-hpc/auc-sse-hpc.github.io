@@ -1,0 +1,52 @@
+site_name: AUC SSE HPC Documentation
+site_description: System and User Documentation for the American University in Cairo SSE Cluster
+site_author: Ahmed A. El Hosseiny
+repo_url: https://github.com/auc-sse-hpc/auc-sse-hpc.github.io
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - User Guide:
+    - Getting Started: user/getting_started.md
+    - Slurm Job Submission: user/slurm_jobs.md
+    - Storage & Quotas: user/storage.md
+    - Software Modules: user/software.md
+  - System Administration:
+    - Cluster Architecture: admin/architecture.md
+    - Slurm Configuration: admin/slurm_config.md
+    - KVM Virtualization & NUMA: admin/virtualization.md
+    - Network Fabric: admin/networking.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
