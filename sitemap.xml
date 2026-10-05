@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://auc-sse-hpc.github.io/</loc>
+         <lastmod>2026-10-05</lastmod>
+    </url>
+    <url>
+         <loc>https://auc-sse-hpc.github.io/user/</loc>
+         <lastmod>2026-10-05</lastmod>
+    </url>
+    <url>
+         <loc>https://auc-sse-hpc.github.io/user/getting_started/</loc>
+         <lastmod>2026-10-05</lastmod>
+    </url>
+    <url>
+         <loc>https://auc-sse-hpc.github.io/user/slurm_jobs/</loc>
+         <lastmod>2026-10-05</lastmod>
+    </url>
+    <url>
+         <loc>https://auc-sse-hpc.github.io/user/software/</loc>
+         <lastmod>2026-10-05</lastmod>
+    </url>
+    <url>
+         <loc>https://auc-sse-hpc.github.io/user/storage/</loc>
+         <lastmod>2026-10-05</lastmod>
+    </url>
+</urlset>
