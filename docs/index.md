@@ -10,6 +10,7 @@ The HPC cluster provides high-throughput computational resources, large memory n
 
 This portal contains essential guides and best practices for navigating and running workloads on the cluster:
 
+* **[User Guide Overview](user/index.md):** High-level summary of all available documentation sections.
 * **[Getting Started](user/getting_started.md):** Information on network access, SSH connections, key setup, and login node etiquette.
 * **[Slurm Job Submission](user/slurm_jobs.md):** How to run batch jobs, request CPU and GPU resources, and start interactive sessions using Slurm.
 * **[Storage & Quotas](user/storage.md):** Overview of user home directories, high-speed scratch space, and data hygiene best practices.
@@ -29,4 +30,4 @@ To ensure fair and reliable resource access for all researchers, please adhere t
 
 ## Getting Help & Support
 
-If you need an HPC account, experience technical issues, or require assistance installing specialized software libraries, please contact the SSE HPC administration team through departmental channels.
+If you need an HPC account, experience technical issues, or require assistance installing specialized software libraries, please contact the SSE HPC administration team through departmental channels or submit an issue via the [AUC SSE HPC GitHub Issues](https://github.com/auc-sse-hpc/auc-sse-hpc.github.io/issues).

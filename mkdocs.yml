@@ -9,7 +9,9 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
+    - navigation.indexes
     - navigation.top
+    - navigation.footer
     - search.suggest
     - search.highlight
     - content.code.copy
@@ -34,6 +36,7 @@ theme:
 nav:
   - Home: index.md
   - User Guide:
+    - Overview: user/index.md
     - Getting Started: user/getting_started.md
     - Slurm Job Submission: user/slurm_jobs.md
     - Storage & Quotas: user/storage.md

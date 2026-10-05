@@ -95,3 +95,10 @@ rsync -avzP ./datasets/ <username>@<login_host>:~/datasets/
 rsync -avzP <username>@<login_host>:~/results/ ./local_results/
 ```
 > Options: `-a` (archive permissions), `-v` (verbose), `-z` (compress in transit), `-P` (show progress and resume interrupted transfers).
+
+---
+
+## Next Steps
+
+Explore how to load Environment Modules and execute rootless Apptainer containers in the [Software Modules & Containers Guide](software.md).
+

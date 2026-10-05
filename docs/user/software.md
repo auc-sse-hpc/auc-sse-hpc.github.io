@@ -146,3 +146,12 @@ apptainer exec --bind /data:/data pytorch_latest.sif python3 /data/train.py
 # Run container with GPU passthrough
 apptainer exec --nv --bind /data:/data pytorch_2.2.0-cuda12.1-cudnn8-runtime.sif python3 /data/train.py
 ```
+
+---
+
+## Related Guides
+
+* Return to the [User Guide Overview](index.md)
+* Learn more about [Slurm Job Submission](slurm_jobs.md)
+* Review [Storage & Quotas](storage.md)
+

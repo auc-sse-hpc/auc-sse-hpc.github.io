@@ -171,3 +171,10 @@ Query the Slurm accounting database for completed jobs:
 sacct -j <job_id> --format=JobID,JobName,Partition,AllocCPUS,Elapsed,MaxRSS,State,ExitCode
 ```
 > **Tip:** Inspecting `MaxRSS` helps you accurately tune future `--mem` requests so you do not over-request or run out of memory.
+
+---
+
+## Next Steps
+
+Learn how to manage files, directories, and high-performance scratch arrays in the [Storage & Quotas Guide](storage.md).
+
