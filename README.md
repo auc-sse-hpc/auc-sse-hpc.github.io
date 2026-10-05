@@ -1,31 +1,36 @@
-# AUC SSE HPC Documentation Portal
+# AUC SSE HPC Documentation
 
 Official documentation repository for the **American University in Cairo (AUC) School of Sciences and Engineering (SSE) High-Performance Computing (HPC) Cluster**.
 
-🌐 **Live Documentation:** [https://auc-sse-hpc.github.io/](https://auc-sse-hpc.github.io/)
+---
+
+## Status
+
+> ℹ️ **Notice:** Documentation content is currently undergoing internal review and verification. Public documentation pages are temporarily offline while content updates are finalized.
+
+🌐 **Portal URL:** [https://auc-sse-hpc.github.io/](https://auc-sse-hpc.github.io/)
 
 ---
 
-## User Guide Contents
+## Overview
 
-* **[Getting Started](https://auc-sse-hpc.github.io/user/getting_started/)**: Network requirements (campus & FortiClient VPN), SSH login, ED25519 key authentication, and login node rules.
-* **[Slurm Job Submission](https://auc-sse-hpc.github.io/user/slurm_jobs/)**: Partition overview, `#SBATCH` batch templates (CPU multithreading, GPU PyTorch, and Job Arrays), interactive shells (`srun`), and job management (`squeue`, `scancel`, `sacct`).
-* **[Storage & Quotas](https://auc-sse-hpc.github.io/user/storage/)**: Home directory vs high-performance scratch/data storage, quota monitoring, data compression, and remote transfers (`scp`, `rsync`).
-* **[Software Modules & Containers](https://auc-sse-hpc.github.io/user/software/)**: Loading Environment Modules (`module load`), managing isolated Conda environments, and running rootless Apptainer (Singularity) containers with GPU acceleration.
+This repository contains the source documentation for the AUC SSE HPC cluster, built using [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
+
+### Repository Structure
+
+* `docs/`: Markdown source files and guides.
+* `mkdocs.yml`: Site layout and configuration.
 
 ---
 
-## Local Development & Build
+## Local Development & Contribution
 
-To test and build the documentation locally:
+To preview the documentation locally:
 
 ```bash
-# Install mkdocs and mkdocs-material
+# Install required tools
 pip install mkdocs mkdocs-material
 
-# Run local preview server
+# Start local development preview server
 mkdocs serve
-
-# Build production site
-mkdocs build
 ```
