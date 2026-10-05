@@ -1,4 +1,5 @@
 site_name: AUC SSE HPC Documentation
+site_url: https://auc-sse-hpc.github.io/
 site_description: User Documentation for the American University in Cairo SSE Cluster
 site_author: Ahmed A. El Hosseiny
 repo_url: https://github.com/auc-sse-hpc/auc-sse-hpc.github.io
