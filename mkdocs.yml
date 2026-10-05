@@ -1,5 +1,5 @@
 site_name: AUC SSE HPC Documentation
-site_description: System and User Documentation for the American University in Cairo SSE Cluster
+site_description: User Documentation for the American University in Cairo SSE Cluster
 site_author: Ahmed A. El Hosseiny
 repo_url: https://github.com/auc-sse-hpc/auc-sse-hpc.github.io
 
@@ -37,11 +37,6 @@ nav:
     - Slurm Job Submission: user/slurm_jobs.md
     - Storage & Quotas: user/storage.md
     - Software Modules: user/software.md
-  - System Administration:
-    - Cluster Architecture: admin/architecture.md
-    - Slurm Configuration: admin/slurm_config.md
-    - KVM Virtualization & NUMA: admin/virtualization.md
-    - Network Fabric: admin/networking.md
 
 markdown_extensions:
   - admonition
